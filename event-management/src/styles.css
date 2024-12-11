@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.lovepik.com/photo/40083/2170.jpg_wh860.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #ccf8e9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #007bff;
+}
+
+img[alt="Profile"] {
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.mt-3 {
+    color: #0f0f10;
+    margin-top: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.divuser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(176, 204, 195);
+    margin: 20px;
+    border: 10px;
+    border-radius: 10%;
+    padding: 55px;
+}
+.divuser:hover {
+    transform: translateY(-10px);
+}
